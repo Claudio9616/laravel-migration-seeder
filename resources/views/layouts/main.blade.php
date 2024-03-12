@@ -8,6 +8,8 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    @yield('table-content')
+    <div class="container mt-3">
+        @yield('table-content')
+    </div>
 </body>
 </html>
